@@ -1,6 +1,6 @@
-# Max objects to communicate with the Qualisys MoCap software QTM
+# Max objects for MoCap -> Max (-> Ableton)
 
-1. Qualisys-MAX4Live-Ableton.amxd
+### 1. Qualisys-MAX4Live-Ableton.amxd
 Max4Live plug-in to receive Qualisys OSC and control Ableton track parameters
 
 This MAX4live patch is to be placed in the Ableton Live master track.
@@ -14,7 +14,7 @@ It receives OSC from Qualisys on port 45458 and controls ableton parameters:
 
 Markers names and rigid bodies names need to be adjusted.
 
-2. ReceiveSendMoCapOSC.maxpat
+### 2. ReceiveSendMoCapOSC.maxpat
 An object to receive MoCap XYZ-data over OSC and send it back out (scaled, locally).
 One can scale the a 'cube' in which to move a rigidbody and control a soundobject.
 
