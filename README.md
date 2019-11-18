@@ -15,8 +15,9 @@ It receives OSC from Qualisys on port 45458 and controls ableton parameters:
 Markers names and rigid bodies names need to be adjusted.
 
 ### 2. ReceiveSendMoCapOSC.maxpat
-An object to receive MoCap XYZ-data over OSC and send it back out (scaled, locally).
-One can scale the a 'cube' in which to move a rigidbody and control a soundobject.
+A stand-alone Max object to receive MoCap XYZ-data over OSC and send it back out (scaled, locally).
+One can scale the a 'cube' in which to move a rigidbody and control a position over OSC.
+Example: It can be used with the IOSONO system using a tweaked version of the IOSONO M4L patch in Ableton (To be found in: Iosono4Live/OSCin/IOSONO_2019_xyzOSC.amxd)
 
 - IN: Mocap 10.10.141.14, ports: 22225/45454, rigidbody = Hand
 - OUT XYZ data over OSC /soundobject0, /soundobject1, ... port = 1111
